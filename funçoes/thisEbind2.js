@@ -6,7 +6,7 @@ function pessoa() {
         this.idade++
         console.log(self.idade)
 
-    }/*.bind(this)*/, 1000)//dispara sem parar com ctrl alt n e o mesmo para
+    }.bind(this), 1000)//dispara sem parar com ctrl alt n e o mesmo para
 }
 
-new pessoa
+new pessoap
