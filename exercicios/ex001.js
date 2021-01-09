@@ -17,4 +17,4 @@ function soma(a ,b) {
     console.log(a + b)
 }
 soma(1,2)
-//soma subtraçao multiplicaçao 
+//soma subtraçao multiplicaçao divisao
