@@ -30,3 +30,15 @@ function criarFuncionario(nome, salarioBase, faltas) {
         }
     }
 }
+const f1 = criarFuncionario('joao', 7980, 4)
+const f2 = criarFuncionario('maria', 11400, 1)
+ console.log(f1.getSalario(), f2.getSalario())
+
+ // object.create
+ const filha = Object.create(null)
+ filha.nome = 'Ana'
+ console.log(filha)
+
+ // um funçao famosa que retorna Objeto...
+ const fromJSON = JSON.parse('{"info": "SOU UM json"}')
+ console.log(fromJSON.info)
