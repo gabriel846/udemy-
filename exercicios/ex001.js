@@ -18,3 +18,4 @@ function soma(a ,b) {
 }
 soma(1,2)
 //soma subtraçao multiplicaçao divisao
+// calculadorinha hahahah
